@@ -2,9 +2,9 @@ Début bonbonsMax ( argent, prix )
   nombreBonbon = 0
   Si argent > 0 ET prix > 0 
     Tant que prix <= argent 
-   	 	argent = argent - prix 
+   	argent = argent - prix 
     	nombreBonbon = nombreBonbon + 1
-			Retourner nombreBonbon
-  	Fin Tant que 
-	Fin Si
+	Retourner nombreBonbon
+    Fin Tant que 
+  Fin Si
 Fin bonbonsMax
